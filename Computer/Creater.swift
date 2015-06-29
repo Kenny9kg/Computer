@@ -8,17 +8,19 @@
 
 import Foundation
 
-class Creator {
-    computerMethod() -> Computer {}
 
-class PCFactory{
-    computerMethod() -> Computer {
-    pc() = computer(){
-    return pc()
+class Creator {
+    func ComputerMethod() -> Computer {
+    return Computer()
     }
 }
-class LaptopFactory{
-    computerMethod() -> Computer {
-    return Laptop()
+class PCFactory : Creator{
+    override func ComputerMethod() -> Computer {
+        return PC()
+    }
+}
+class LaptopFactory : Creator{
+    override func ComputerMethod() -> Computer {
+        return Laptop()
     }
 }
