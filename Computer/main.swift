@@ -1,19 +1,21 @@
 //
 //  main.swift
-//  Computer
+//  03
 //
-//  Created by 邱建智 on 2015/6/26.
+//  Created by Hong James on 2015/6/26.
 //  Copyright (c) 2015年 foxcat. All rights reserved.
 //
 
 import Foundation
 
-//let mainF = BuildComputer()
-//mainF.choiceMethod(1, port: 3, comWeight: 2.4)
-//println("\(mainF.usbPort)")
+var myDevice = Device()
+var myMonitor = Monitor()
+var myKeybroad = Keybroad()
+var myMouse = Mouse()
+var myTalet = Tablet()
 
-let c = Computer()
 
-c.weight = 3.2
-print("\(c.Dev[0].price)")
 
+myDevice.getPrice()
+
+print("\(myMonitor.getPrice())")
