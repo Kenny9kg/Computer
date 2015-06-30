@@ -11,7 +11,11 @@
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>D2427F59011A782ABEFDE37F604A5282E49BC2DE</key>
+<<<<<<< HEAD
 		<string>https://github.com/Kenny9kg/Computer.git</string>
+=======
+		<string>https://github.com/VictorFoxcat/Computer.git</string>
+>>>>>>> 1b0130f23c79846625c52fe73086dbebd243db81
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Computer.xcodeproj</string>
@@ -21,7 +25,11 @@
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
+<<<<<<< HEAD
 	<string>https://github.com/Kenny9kg/Computer.git</string>
+=======
+	<string>https://github.com/VictorFoxcat/Computer.git</string>
+>>>>>>> 1b0130f23c79846625c52fe73086dbebd243db81
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
@@ -34,7 +42,11 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>D2427F59011A782ABEFDE37F604A5282E49BC2DE</string>
 			<key>IDESourceControlWCCName</key>
+<<<<<<< HEAD
 			<string>Computer</string>
+=======
+			<string>untitled%20folder</string>
+>>>>>>> 1b0130f23c79846625c52fe73086dbebd243db81
 		</dict>
 	</array>
 </dict>

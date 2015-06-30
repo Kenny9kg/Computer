@@ -9,9 +9,14 @@
 import Foundation
 
 class Monitor : Device {
-    var size:Int=20
     
-
+    var size:Int = 20
+    
+    override init() {
+        super.init()
+        self.price = 87456156456
+    }
+    
 //    init(size:Int){
 //        self.size = size
 //        super.init(price: 50)
