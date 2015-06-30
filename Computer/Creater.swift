@@ -16,7 +16,7 @@ class Creator {
         var CC = Computer()
         //選擇作業系統 os_Choice = 1-3
         setOs = os[os_Choice]
-        CC.OS = setOs!
+        CC.os = setOs!
         CC.usbPort = port
         CC.weight = comWeight
         //建立一個設備清單

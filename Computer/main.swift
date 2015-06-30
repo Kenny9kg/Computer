@@ -8,12 +8,12 @@
 
 import Foundation
 
-//let mainF = BuildComputer()
-//mainF.choiceMethod(1, port: 3, comWeight: 2.4)
-//println("\(mainF.usbPort)")
-
 let c = Computer()
-
+//新建一台名為c的電腦
 c.weight = 3.2
-print("\(c.Dev[0].price)")
+c.ComputerMethod()
+//電腦組裝方法將c的裝置丟進去
+(c.dev[0] as! Mouse).mouse = false
+print("\((c.dev[0] as! Mouse).mouse)")
+//as! 向下轉型，將dev[0]轉換成Mouse型別再取參數
 
