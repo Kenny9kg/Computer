@@ -9,7 +9,7 @@
 import Foundation
 
 class Device {
-    var price:Int=100
+    var price:Int = 100
     
     
 //    init(price: Int){
@@ -17,8 +17,7 @@ class Device {
 //    }
     
     
-    func getPrice(){
-        
+    func getPrice() -> Int{
+        return self.price
     }
-
 }

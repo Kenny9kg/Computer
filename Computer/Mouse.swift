@@ -9,13 +9,13 @@
 import Foundation
 
 class Mouse : Device {
-    var mouse:Bool=true
+    var line:Bool=true
     
 //    init(mouse:Bool){
 //        self.mouse = mouse
 //        super.init(price: 50)
 //    }
     func getMouse() -> Bool{
-        return mouse
+        return line
     }
 }
